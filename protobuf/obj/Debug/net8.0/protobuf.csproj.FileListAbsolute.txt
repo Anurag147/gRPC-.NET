@@ -1,0 +1,17 @@
+C:\Anurag\Study\gRPC\protobuf\bin\Debug\net8.0\protobuf.exe
+C:\Anurag\Study\gRPC\protobuf\bin\Debug\net8.0\protobuf.deps.json
+C:\Anurag\Study\gRPC\protobuf\bin\Debug\net8.0\protobuf.runtimeconfig.json
+C:\Anurag\Study\gRPC\protobuf\bin\Debug\net8.0\protobuf.dll
+C:\Anurag\Study\gRPC\protobuf\bin\Debug\net8.0\protobuf.pdb
+C:\Anurag\Study\gRPC\protobuf\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.csproj.AssemblyReference.cache
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.AssemblyInfoInputs.cache
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.AssemblyInfo.cs
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.csproj.CoreCompileInputs.cache
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.csproj.CopyComplete
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.dll
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\refint\protobuf.dll
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.pdb
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.genruntimeconfig.cache
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\ref\protobuf.dll
