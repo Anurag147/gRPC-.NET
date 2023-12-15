@@ -15,3 +15,4 @@ C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\refint\protobuf.dll
 C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.pdb
 C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.genruntimeconfig.cache
 C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\ref\protobuf.dll
+C:\Anurag\Study\gRPC\protobuf\obj\Debug\net8.0\protobuf.sourcelink.json

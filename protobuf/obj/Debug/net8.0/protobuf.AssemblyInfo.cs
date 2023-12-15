@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("protobuf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ced59ee4c9c4943a653a1f5ee1c155fc7f6bf49")]
 [assembly: System.Reflection.AssemblyProductAttribute("protobuf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("protobuf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

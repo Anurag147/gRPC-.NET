@@ -22,6 +22,9 @@ emp.CurrentAddress = new Address
     ZipCode = "123"
 };
 
+emp.Relatives.Add("Father", "Avinash");
+emp.Relatives.Add("Mother", "Vandana");
+
 using (var output = File.Create("emp.dat"))
 {
     emp.WriteTo(output);
