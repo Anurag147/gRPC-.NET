@@ -1,5 +1,7 @@
 using Grpc.Core;
 using gRoom.gRPC.Messages;
+using Google.Protobuf.WellKnownTypes;
+using gRoom.gRPC.Utils;
 
 namespace gRoom.gRPC.Services;
 
@@ -23,12 +25,29 @@ public class GroomService : Groom.GroomBase
 
     public override async Task<NewsStreamStatus> SendNewsFlash(IAsyncStreamReader<NewsFlash> newsStream, ServerCallContext context)
     {
-       while(await newsStream.MoveNext())
+        while (await newsStream.MoveNext())
         {
             var news = newsStream.Current;
+            MessagesQueue.AddNewsToQueue(news);
             Console.WriteLine(news.NewsItem);
         }
 
-       return new NewsStreamStatus { Success = true };
+        return new NewsStreamStatus { Success = true };
+    }
+
+    public override async Task StartMonitoring(Empty request,
+                                               IServerStreamWriter<RecievedMessage> writer,
+                                               ServerCallContext context)
+    {
+        while (true)
+        {
+            //await writer.WriteAsync(new RecievedMessage { NewsTime = Timestamp.FromDateTime(DateTime.UtcNow), User = "1", Contents = "Test" });
+            if (MessagesQueue.GetMessagesCount() > 0)
+            {
+                await writer.WriteAsync(MessagesQueue.GetNextMessage());
+            }
+            await Task.Delay(1000);
+
+        }
     }
 }
